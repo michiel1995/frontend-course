@@ -1,0 +1,76 @@
+/**
+ CSS Selector
+*/
+
+/* * {
+  background-color: red;
+} */
+
+/* body * {
+  background-color: red;
+} */
+
+/* .div * {
+  background-color: green;
+} */
+
+/* a {
+  color: blue;
+} */
+
+/* button {
+  background-color: #00ff00;
+} */
+
+/* a,
+button {
+  color: yellow;
+} */
+
+/* button.button-class {
+  background-color: #ff0000;
+} */
+
+/* div > p {
+  color: blue;
+} */
+
+/* a + p {
+  color: green;
+} */
+
+/* p ~ div {
+  color: red;
+} */
+
+/**
+Atributes
+**/
+
+/* [target] {
+  color: blue;
+} */
+
+/* [target="_blank"] {
+  color: red;
+} */
+
+/* [data-type~="p-tag"] {
+  color: yellow;
+} */
+
+/* [data-type|="p"] {
+  color: green;
+} */
+
+/* [data-type^="p"] {
+  color: green;
+} */
+
+/* [data-type$="-tag"] {
+  color: blue;
+} */
+
+/* [data-type*="-"] {
+  color: green;
+} */
