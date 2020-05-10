@@ -1,0 +1,9 @@
+:root {
+  --stopwatch-background: #c2e4ed;
+  --stopwatch-panel-bg: #99b3ba;
+  --stopwatch-numbers-bg: #39626e;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}

@@ -13,4 +13,5 @@ This course is from Michiel Van Haute to learn my friends frontend developing
 ## Css
 
 - Css selectors: https://www.w3schools.com/cssref/css_selectors.asp
+- Css units: https://www.w3schools.com/cssref/css_units.asp
 - Css specificity: https://www.smashingmagazine.com/2007/07/css-specificity-things-you-should-know/
