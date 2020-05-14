@@ -16,6 +16,7 @@ Wat vind u in de opdracht:
 
 - Html file --> hierin maakt u de opdracht
 - Css file --> wordt al ingeladen op de HTML en je bekijkt dit best niet
+- We hebben nog geen forms gezien dus het is geen ramp dat dit niet gemaakt is maar je kan al een poging doen ;)
 
 Wanneer je de juiste tags gebruikt zal de pagina er uit zien als gevraagd ( Je mag geen extra css toevoegen )
 
