@@ -20,4 +20,6 @@ Wat vind u in de opdracht:
 
 Wanneer je de juiste tags gebruikt zal de pagina er uit zien als gevraagd ( Je mag geen extra css toevoegen )
 
+Link image http://i.imgur.com/L34Fib6.jpg
+
 ## Veel success vele groetjes Meester Michiel
