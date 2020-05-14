@@ -1,4 +1,4 @@
 :root {
-  --page-background: #6e5f5a;
-  --dice-inner-color: #ffffff;
+  --page-background: #6e5f5a; /* you can use this variable as var(--page-background) */
+  --dice-inner-color: #ffffff; /* you can use this variable as var(--dice-inner-color) */
 }

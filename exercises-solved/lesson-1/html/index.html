@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- The head tags include page information, e.g. metadata, as well as any included CSS and JS scripts. Everything in the head is loaded by the browser before the body. -->
+
+    <!-- The title tag defines the page's title that shows up in the browser's tab bar -->
+    <title>Dog D. Dog's Homepage</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <!-- The link tag lets us link CSS files to the HTML and apply the CSS to the page. The 'href="style.css"'' is a reference to the path of where the CSS file lives. -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- The body tags include all page content. These objects will be rendered on the page. -->
+
+      <!-- The h1 tag is a header tag of the largest size. This header gets rendered on the page. -->
+      <h1>Dog D. Dog</h1>
+
+      <!-- Img tags lets us add images. -->
+      <div>
+        <img src="http://i.imgur.com/L34Fib6.jpg" id="photo" />
+      </div>
+
+      <!--Divs and spans can be used to logically and structurally organize your page
+      Here we use divs to separate different sections of the page: about, courses, interests and pet information
+      * divs are block elements and are separated by newlines or breaks in the page
+      * spans are inline elements and are displayed without newlines between them
+    -->
+
+      <!--Each div (and any other tag) can have a class and id.
+      The class can be shared with other tags.
+      The id is unique to this tag.
+      The class and id can be selected by CSS rules to style groups of elements differently.
+    -->
+      <section>
+        <!--An h2 header - smaller than the h1 header-->
+        <h2>About</h2>
+
+        <!--<p> tags are paragraphs have newlines before and after them-->
+        <p>Woof woof!</p>
+
+        <!--The <a> tag is a link.
+        The text between the <a> and </a> tags is the displayed text.
+        The href attribute has the link's target URL.-->
+        <p>
+          Hi, I'm Dog. I love the best
+          <a href="http://michvh.be" target="_blank"> frontender Michiel</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Courses</h2>
+        <p>Here are some courses I've taken:</p>
+
+        <!--Tables can be used to group text or images into rows and columns-->
+        <table>
+          <thead>
+            <!--Each <tr> is a row-->
+            <tr>
+              <!--Each <th> or <td> is a cell.
+                The number of cells in a row determines the number of columns in the table.
+              -->
+              <th>Course Number</th>
+              <th>Course Title</th>
+              <th>Semester Taken</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <!--A <td> or cell can span multiple columns using the colspan attribute-->
+              <td colspan="3">Already done</td>
+            </tr>
+            <!--We give certain rows the "currentlytaking" class, so we can color them differently in a CSS rule-->
+            <tr>
+              <td>
+                1
+              </td>
+              <td>Editors</td>
+              <td>13/04</td>
+            </tr>
+            <tr>
+              <td>
+                2
+              </td>
+              <td>Html & css</td>
+              <td>13/04</td>
+            </tr>
+
+            <tr>
+              <td colspan="3">Will be follow</td>
+            </tr>
+            <tr>
+              <td>
+                3
+              </td>
+              <td>Javascript</td>
+              <td>-/-/-</td>
+            </tr>
+            <tr>
+              <td>
+                4
+              </td>
+              <td>How to use Google</td>
+              <td>-/-/-</td>
+            </tr>
+            <tr>
+              <td>
+                5
+              </td>
+              <td>And a lot more</td>
+              <td>-/-/-</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Interests</h2>
+        <!--Spans are displayed inline, but allow you to identify text in CSS rules-->
+        I am interested in a lot of things:
+        <ul>
+          <li>
+            Barking to the postman
+          </li>
+          <li>
+            Toys
+            <ol>
+              <li>Trixie Gier</li>
+              <li>Dog cornets Ball</li>
+              <li>Jolly Egg</li>
+            </ol>
+          </li>
+
+          <li>Trashing my home</li>
+        </ul>
+        <span class="serious">HCI</span>, <span class="silly">memes</span>, and
+        <span class="silly">youtube videos</span>.
+      </section>
+
+      <section>
+        <h2>Submit Review Michiel's lesson</h2>
+        <p>
+          Would love to know what you find of the first lesson
+        </p>
+
+        <!--A form allows the user/client to input information.
+            Form information can then be captured when submitted via scripts.-->
+        <form>
+          <!--The form contains several <input> elements which receive info from the user.
+          Each <input> element has a 'type' attribute, which determines if it's a textbox, radio button, etc.-->
+          <label for="name">Name:</label>
+          <input id="name" type="text" name="name" /><br />
+          <label for="email">E-mail:</label>
+          <input id="email" type="text" name="email" /><br />
+          <label for="gender">Gender:</label>
+          <input id="gender" type="text" name="gender" /><br />
+
+          <!--The submit-type input is a button that sends the information as name:value pairs to the form's 'action'-->
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
