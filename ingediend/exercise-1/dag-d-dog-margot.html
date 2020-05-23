@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Dog D. Dog's Homepage</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Op deze pagina vindt u de eerste oefening van de Frontent-lessen. Ook wel de Homepage van Dog D. Dog genoemd."
+    />
+    <meta name="author" content="Margot Serpentier" />
+  </head>
+
+  <body>
+    <div style="background-color: red; color: white;">
+      <h4>Feedback 9/10</h4>
+      <ul>
+        <li>Geen target = _blank op anchor (a) tag (-1)</li>
+      </ul>
+    </div>
+    <!--Vraag: wat wordt niet in main geplaatst? aangezien tot nu toe main telkens de volledige pagina innam, dus hetzelfde als body gewoon? ANTWOORD: nav enzo buiten main, enkel content binnen main-->
+    <main>
+      <header>
+        <h1>Dog D. Dog</h1>
+        <img
+          src="https://i.imgur.com/L34Fib6.jpg"
+          alt="Cute pic of Dog D Dog"
+          title="Cute pic of Dog D Dog"
+        />
+      </header>
+      <section>
+        <h2>About</h2>
+        <p>Woof woof!</p>
+        <p>
+          Hi, I'm Dog. I love the best
+          <a href="https://michvh.be/">frontender Michiel</a>.
+        </p>
+      </section>
+      <section>
+        <h2>Courses</h2>
+        <p>Here are some courses I've taken:</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Course Number</th>
+              <th>Course Title</th>
+              <th>Semester Taken</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="3">Already done</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>Editors</td>
+              <td>13/04</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Html & css</td>
+              <td>13/04</td>
+            </tr>
+            <tr>
+              <td colspan="3">Will be follow</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Javascript</td>
+              <td>-/-/-</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>How to use Google</td>
+              <td>-/-/-</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>And a lot more</td>
+              <td>-/-/-</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Interests</h2>
+        <p>I am interested in a lot of things:</p>
+        <ul>
+          <li>Barking to the postman</li>
+          <li>
+            Toys
+            <ol>
+              <li>Trixie Gier</li>
+              <li>Dog cornets Ball</li>
+              <li>Jolly Egg</li>
+            </ol>
+          </li>
+          <li>Trashing my home</li>
+        </ul>
+        <p>HCI, memes, and youtube videos.</p>
+      </section>
+      <section>
+        <h2>Submit Review Michiel's lesson</h2>
+        <p>Would love to know how you feel about the first lesson:</p>
+        <form action="/success.html" method="GET">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="TEST"
+            required="required"
+            disabled="disabled"
+            value="Margot serpentier"
+          /><br />
+          <label for="email">E-mail:</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            value="margot.serpentier@hotmail.com"
+          /><br />
+          <label for="gender">Gender:</label>
+          <input type="text" id="gender" name="gender" /><br />
+          <input type="submit" value="SUBMIT" />
+
+          <input type="number" />
+          <input type="email" />
+          <input type="datetime" />
+          <input type="color" /><br />
+          <input type="radio" name="test" />
+          <input type="radio" name="test" />
+          <input type="radio" name="test" /><br />
+
+          <input type="checkbox" name="test" />
+          <input type="checkbox" name="test" />
+
+          <input type="checkbox" name="test" />
+          <label for="test-select">Test select</label>
+          <select id="test-select" name="land">
+            <option value="be" label="Belgium"></option>
+            <option value="fr" label="Frankrijk"></option>
+            <option value="de" label="Duitsland"></option>
+          </select>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
